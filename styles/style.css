@@ -1,0 +1,204 @@
+body {
+    background: #cccccc;
+
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+ul {
+    list-style: none;
+
+}
+.btn{
+    color: #FFFFFF;
+    background: #0D606F;
+    font-family: 'Red Hat Text', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 32px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: none;
+    border-radius:10px;
+    cursor: pointer;
+}
+
+.container {
+    width: 100%;
+    max-width: 1440px;
+    margin: 0 auto;
+}
+
+.wrapper {
+    padding: 0 120px;
+
+}
+.header{
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+
+}
+.header__wrapper {
+    background: rgba(242, 120, 92, 0.7);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 25px;
+    padding-bottom: 24px;
+    box-shadow: 0 4px 4px rgba(13, 96, 111, 0.5);
+}
+
+
+.header__list{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.header__item{
+    margin-right: 42px;
+
+
+}
+.header__link{
+    font-family: 'Red Hat Text', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 21px;
+
+    color: #FFFFFF;
+}
+
+.header__btn{
+    padding: 10px 30px;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 21px
+}
+/*----------main-------------------------*/
+/*---------------preview--------------*/
+.preview{
+
+}
+
+.preview__wrapper{
+    height: 765px;
+    background: url("../img/garrett-parker.jpg") center center/cover no-repeat;
+    padding-top: 122px;
+}
+.preview__title{
+    font-family: 'Aleo',sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 80px;
+    line-height: 96px;
+    color: #FFFFFF;
+    max-width: 892px;
+}
+.preview__text{
+    font-family: 'Aleo',sans-serif;
+    font-style: italic;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 24px;
+    color: #FFFFFF;
+    margin-bottom: 46px;
+    margin-top: 30px;
+}
+.preview__form{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 892px;
+    padding: 18px;
+    background: rgba(255, 255, 255, 0.7);
+    border-radius: 16px;
+}
+input::-webkit-input-placeholder {
+    font-family: 'Aleo',sans-serif;
+    font-style: italic;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 29px;
+    color: #F2785C;
+}
+
+.preview__in{
+    flex: 1;
+    border: none;
+    background: transparent;
+    padding: 10px 23px;
+
+}
+.preview__btn{
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 32px;
+    padding: 14px 32px;
+}
+/*---------steps------------------------*/
+.steps{
+    padding: 80px 0;
+}
+.steps__title{
+    text-align: center;
+    font-family: 'Red Hat Text',sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 40px;
+    line-height: 53px;
+    color: #F2785C;
+}
+.steps__content{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    margin-top: 40px;
+}
+.steps__wrapper{
+    padding:0 130px;
+}
+.steps__content-item:first-child{
+    justify-self: flex-start;
+}
+.steps__content-item:last-child{
+    justify-self: flex-end;
+}
+.steps__icon{
+    width: 100px;
+    height: 100px;
+    border-radius: 16px;
+    background: #F2785C;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 30px;
+}
+.steps__content-wrapper{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.steps__text{
+    font-family: 'Aleo',sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 24px;
+    color: #0D606F;
+}
